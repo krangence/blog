@@ -1,18 +1,13 @@
-baseurl = "/"
+baseurl = "https://example.com/"
 languageCode = "en-us"
-theme = "terminal"
+theme = "hugo-theme-terminal"
 paginate = 5
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
-  # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # set theme to full screen width
+  contentTypeName = "post"
+  themeColor = "green"
+  showMenuItems = 3
   fullWidthTheme = false
-  # center theme with default width
   centerTheme = false
 
 [languages]
@@ -38,3 +33,7 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "tits"
+        name = "Tits"
+        url = "/tits"

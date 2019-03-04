@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "*",
+    "babel-register": "*",
+    "gulp": "*",
+    "gulp-cli": "*",
+    "gulp-cloudfront-invalidate": "*",
+    "gulp-htmlmin": "*",
+    "gulp-s3": "*",
+    "gulp-shell": "*",
+    "run-sequence": "*"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
